@@ -1,5 +1,8 @@
 $(call inherit-product, device/xiaomi/sdm439-common/msm8937_64.mk)
 
+# Inherit from vendor blobs
+$(call inherit-product, vendor/xiaomi/pine/pine-vendor.mk)
+
 PRODUCT_DEVICE := pine
 PRODUCT_NAME := pine
 BOARD_VENDOR := xiaomi
