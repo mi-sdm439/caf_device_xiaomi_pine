@@ -1,5 +1,7 @@
 $(call inherit-product, device/xiaomi/sdm439-common/msm8937_64.mk)
 
+DEVICE_PACKAGE_OVERLAYS := device/xiaomi/pine/overlay
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/pine/pine-vendor.mk)
 
