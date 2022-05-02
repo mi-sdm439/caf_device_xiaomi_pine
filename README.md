@@ -2,4 +2,5 @@
 - Camera
 - Gyro sensor
 - Headset
+- Phone call
 - USB Preferences
